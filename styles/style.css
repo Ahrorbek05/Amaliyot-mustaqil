@@ -1,0 +1,1116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* ======== header css ======== */
+
+header .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.nav-item ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: left;
+    gap: 41px;
+    margin-left: 35px;
+}
+
+
+ul li{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+    color: #150C01;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+ul li:hover{
+    color: #DC780B;
+}
+
+.booking-now button{
+    margin-left: 440px;
+    padding: 13px 30px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid #DC780B;
+    color: #FFFFFF;
+    background-color: #DC780B;
+    transition: all 0.3s;
+    cursor: pointer;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+    transition: all 3s;
+
+}
+
+.booking-now button:hover{
+    background-color: rgb(170, 91, 6);
+    color: #FFFFFF;
+    box-shadow: 8px 8px rgb(170, 91, 6);
+    transition: .3s;
+}
+
+/* ======= hero css ======= */
+
+.hero__container{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.hero-text{
+    margin-top: 160px;
+    margin-right: 9px;
+}
+
+.hero-text h1{
+    font-family: 'Philosopher';
+    font-size: 48.83px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+    color: #150C01;
+    margin-bottom: 42px;
+}
+
+.hero-text p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 50px;
+    color: rgba(21, 12, 1, 0.653);
+}
+
+.hero-text .order{
+    background-color:#DC780B;
+    color: #FFFFFF;
+    padding: 20px 38px;
+    border-radius: 5px;
+    border: 1px solid rgb(241, 191, 138);
+    cursor: pointer;
+    transition: all 0.3s;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+
+}
+
+.hero-text .order:hover{
+    background-color: rgb(187, 98, 3);
+    color: #FFFFFF;
+}
+
+.hero-text .food{
+    background-color: transparent;
+    color: #DC780B;
+    padding:20px 40px ;
+    border: none;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 30px;
+    transition: all 0.3s;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+
+}
+.hero-text .food:hover{
+    background-color: aliceblue;
+}
+
+/* ======= features css ======= */
+
+.features{
+    margin-top: 115px;
+}
+
+.feature__container h3{
+    display: flex;
+    justify-content: center;
+}
+.feature__container h2{
+    display: flex;
+    justify-content: center;
+}
+
+.feature-title h3{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: #DC780B;
+    margin-bottom: 10px;
+}
+.feature-title h2{
+    font-family: 'Philosopher';
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: left;
+    color: #150C01;
+    margin-bottom: 44px;
+}
+
+.features-info{
+    gap: 90px;
+    margin-bottom: 123px;
+}
+
+
+.features-info button{
+    border: none;
+    padding: 22px;
+    border-radius: 50%;
+    background-color: rgb(245, 245, 245);
+    cursor: pointer;
+}
+
+.food{
+    text-align: center;
+}
+
+.food-delivery{
+    text-align: center;
+}
+
+.taste{
+    text-align: center;
+}
+
+
+.features-info h4{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Philosopher';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: #150C01;
+    gap: 90px;
+}
+
+.features-info p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(21, 12, 1, 0.695);
+    gap: 90px;
+}
+
+.food-delivery button{
+    border: none;
+    background-color:rgb(228, 186, 142);
+    padding: 22px;
+
+}
+.features-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-left: 80px; */
+    /* gap: 196px; */
+}
+
+.taste img{
+    background-color: rgb(255, 227, 200);
+    border-radius: 50%;
+    padding: 22px;
+}
+
+/* ====== about us css ====== */
+
+.about-us__container{
+    display: flex;
+    gap: 98px;
+    align-items: center;
+    margin-bottom: 115px;
+}
+
+.about-us h4{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    text-align: left;
+    color: #DC780B;
+}
+
+.about-us h2{
+    margin-top: 10px;
+    font-family: 'Philosopher';
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 40.63px;
+    text-align: left;
+    color: #150C01;
+}
+
+.about-us p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #150C01;
+    margin-top: 30px;
+}
+
+.about-us button{
+    margin-top: 40px;
+    padding: 12px 30px;
+    border: none;
+    border: 1px solid #DC780B;
+    border-radius: 5px;
+    background-color: #DC780B;
+    color: #FFFFFF;
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+    transition: all 0.3s;
+}
+
+.about-us button:hover{
+    background-color: rgb(175, 91, 0);
+}
+
+/* ====== menu css ====== */
+
+.menu-section{
+    display: flex;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.menu__container h3{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: #DC780B;
+    margin-bottom: 15px;
+}
+
+.menu__container h2{
+    font-family: 'Philosopher';
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: #150C01;
+}
+.menu__container p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #150C01;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* card-1 */
+
+.card{
+    width: 360px;
+    border: 1px solid #0000001A;
+    margin-bottom: 30px;
+    border-radius:92px 10px 5px 5px;
+}
+.card .menu-image{
+    border-top-left-radius: 92px;
+    border-bottom-right-radius: 92px;
+    border-top-right-radius:5px;
+}
+
+.card .sell{
+    display: flex;
+    text-align: left;
+    margin-left: 25px;
+    gap: 130px;
+    /* justify-content: space-evenly; */
+    /* gap: 128px; */
+
+    margin-top: 21px;
+    margin-bottom: 20px;
+
+    font-family: 'Philosopher';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #150C01;
+}
+
+.card p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 25px;
+    color: #150C01;
+}
+
+.review{
+    display: flex;
+}
+
+.review button{
+    margin-right: 170px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    padding: 11px 12px;
+    border: none;
+    background-color: #DC780B;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.review button:hover{
+    background-color:rgb(189, 90, 19);
+}
+
+.review .star{
+    cursor: pointer;
+}
+
+/* card-2 */
+
+.card-2{
+    width: 360px;
+    border: 1px solid #0000001A;
+    margin-bottom: 30px;
+    border-radius:92px 10px 5px 5px;
+}
+.card-2 .menu-image{
+    border-top-left-radius: 92px;
+    border-bottom-right-radius: 92px;
+    border-top-right-radius:5px;
+}
+
+.card-2 .sell{
+    display: flex;
+    text-align: left;
+    margin-left: 25px;
+    gap: 200px;
+    /* justify-content: space-evenly; */
+    /* gap: 128px; */
+
+    margin-top: 21px;
+    margin-bottom: 20px;
+
+    font-family: 'Philosopher';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #150C01;
+}
+
+.card-2 p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 25px;
+    color: #150C01;
+}
+
+.review{
+    display: flex;
+}
+
+.review button{
+    margin-right: 170px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    padding: 11px 12px;
+    border: none;
+    background-color: #DC780B;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.review button:hover{
+    background-color:rgb(189, 90, 19);
+}
+
+.review .star{
+    cursor: pointer;
+}
+
+/* card-3 */
+
+.card-3{
+    width: 360px;
+    border: 1px solid #0000001A;
+    margin-bottom: 30px;
+    border-radius:92px 10px 5px 5px;
+}
+.card-3 .menu-image{
+    border-top-left-radius: 92px;
+    border-bottom-right-radius: 92px;
+    border-top-right-radius:5px;
+}
+
+.card-3 .sell{
+    display: flex;
+    text-align: left;
+    margin-left: 25px;
+    gap: 200px;
+    /* justify-content: space-evenly; */
+    /* gap: 128px; */
+
+    margin-top: 21px;
+    margin-bottom: 20px;
+
+    font-family: 'Philosopher';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #150C01;
+}
+
+.card-3 p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 25px;
+    color: #150C01;
+}
+
+.review{
+    display: flex;
+}
+
+.review button{
+    margin-right: 170px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    padding: 11px 12px;
+    border: none;
+    background-color: #DC780B;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.review button:hover{
+    background-color:rgb(189, 90, 19);
+}
+
+.review .star{
+    cursor: pointer;
+}
+
+/* card-4 */
+
+.card-4{
+    width: 360px;
+    border: 1px solid #0000001A;
+    margin-bottom: 30px;
+    border-radius:92px 10px 5px 5px;
+}
+.card-4 .menu-image{
+    border-top-left-radius: 92px;
+    border-bottom-right-radius: 92px;
+    border-top-right-radius:5px;
+}
+
+.card-4 .sell{
+    display: flex;
+    text-align: left;
+    margin-left: 25px;
+    gap: 50px;
+    /* justify-content: space-evenly; */
+
+    margin-top: 21px;
+    margin-bottom: 20px;
+
+    font-family: 'Philosopher';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #150C01;
+}
+
+.card-4 p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 25px;
+    color: #150C01;
+}
+
+.review{
+    display: flex;
+}
+
+.review button{
+    margin-right: 170px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    padding: 11px 12px;
+    border: none;
+    background-color: #DC780B;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.review button:hover{
+    background-color:rgb(189, 90, 19);
+}
+
+.review .star{
+    cursor: pointer;
+}
+
+/* card-5 */
+
+.card-5{
+    width: 360px;
+    border: 1px solid #0000001A;
+    margin-bottom: 30px;
+    border-radius:92px 10px 5px 5px;
+}
+.card-5 .menu-image{
+    border-top-left-radius: 92px;
+    border-bottom-right-radius: 92px;
+    border-top-right-radius:5px;
+}
+
+.card-5 .sell{
+    display: flex;
+    text-align: left;
+    margin-left: 25px;
+    gap: 170px;
+    /* justify-content: space-evenly; */
+
+    margin-top: 21px;
+    margin-bottom: 20px;
+
+    font-family: 'Philosopher';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #150C01;
+}
+
+.card-5 p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 25px;
+    color: #150C01;
+}
+
+.review{
+    display: flex;
+}
+
+.review button{
+    margin-right: 170px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    padding: 11px 12px;
+    border: none;
+    background-color: #DC780B;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.review button:hover{
+    background-color:rgb(189, 90, 19);
+}
+
+.review .star{
+    cursor: pointer;
+}
+
+/* card-6 */
+
+.card-6{
+    width: 360px;
+    border: 1px solid #0000001A;
+    margin-bottom: 30px;
+    border-radius:92px 10px 5px 5px;
+}
+.card-6 .menu-image{
+    border-top-left-radius: 92px;
+    border-bottom-right-radius: 92px;
+    border-top-right-radius:5px;
+}
+
+.card-6 .sell{
+    display: flex;
+    text-align: left;
+    margin-left: 25px;
+    gap: 85px;
+    /* justify-content: space-evenly; */
+
+    margin-top: 21px;
+    margin-bottom: 20px;
+
+    font-family: 'Philosopher';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #150C01;
+}
+
+.card-6 p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 25px;
+    color: #150C01;
+}
+
+.review{
+    display: flex;
+}
+
+.review button{
+    margin-right: 170px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    padding: 11px 12px;
+    border: none;
+    background-color: #DC780B;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.review button:hover{
+    background-color:rgb(189, 90, 19);
+}
+
+.review .star{
+    cursor: pointer;
+}
+
+.menu__container .learn{
+    /* display: flex; */
+    text-align: center;
+    /* justify-content: center; */
+    margin-top: 61px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid rgba(243, 223, 202, 0.825);
+    background-color: transparent;
+    color: #DC780B;
+    margin-bottom: 187px;
+    transition: all 0.3s;
+}
+
+.menu__container .learn:hover{
+    background-color: lightgray;
+}
+
+/* ====== app download css ====== */
+
+.app-download{
+    background-color: #FBF1E7;
+    display: flex;
+    justify-content: space-around;
+}
+
+.app-download__container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.download-info{
+    margin-top: 114px;
+    margin-bottom: 267px;
+}
+
+.app-download-image{
+    margin-top: 56px;
+    margin-right: 140px;
+    margin-left: 128px;
+}
+
+.download-info h3{
+    font-family: Roboto;
+    margin-left: 120px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    text-align: left;
+    color: #DC780B;
+}
+
+.download-info h2{
+    font-family: Philosopher;
+    font-size: 31.25px;
+    margin-left: 120px;
+    font-weight: 700;
+    line-height: 40.63px;
+    text-align: left;
+    margin-bottom: 30px;
+    color: #150C01;
+}
+
+.download-info p{
+    margin-left: 120px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #150C01;
+    margin-bottom: 40px;
+}
+
+.download-info .app-buttons{
+    margin-left: 120px;
+    display: flex;
+    gap: 30px;
+}
+
+.app-buttons .app-store{
+    padding: 11px 9px 10px 28px;
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    border: none;
+    background-color: #150C01;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: center;
+    border-radius: 5px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.app-buttons .app-store:hover{
+    background-color: #150c01c5;
+    color:#FFFFFF ;
+}
+
+.app-buttons .google-play{
+    padding: 11px 9px 10px 28px;
+    align-items: center;
+    display: flex;
+    border: 1.5px solid rgba(212, 212, 212, 0.947);
+    gap: 8px;
+    /* border: none; */
+    background-color:transparent;
+    color: #150C01;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: left;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3;
+}
+
+.app-buttons .google-play:hover{
+    background-color: aliceblue;
+    color: #150C01;
+}
+
+/* ======== Testimonial css ========= */
+
+.group-1{
+    text-align: center;
+    margin-top: 213px;
+    /* margin-bottom: 120px; */
+}
+
+.group-1 h3{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: #DC780B;
+    margin-bottom: 12px;
+}
+.testimonial-image{
+    text-align: center;
+    margin-top: 73px;
+    margin-bottom: 42px;
+}
+
+.group-1 h2{
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 23px;
+}
+
+.group-1 p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.616);
+}
+
+.testimonial-text{
+    text-align: center;
+}
+.testimonial-text p{
+    margin-bottom: 20px;
+}
+.testimonial-text img{
+    margin-bottom: 70px;
+}
+
+.testimonial-text p{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.testimonial-text h4{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: center;
+    color: #000000;
+}
+.testimonial-text h6{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.696);
+    margin-top: 6px;
+    margin-bottom: 120px;
+}
+
+/* ======= contact css ======== */
+
+.contact{
+    background-color: rgb(243, 221, 198);
+    /* text-align: center; */
+}
+
+.contact-forma h3{
+    padding-top: 112px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: #DC780B;
+    margin-bottom: 15px;
+}
+
+.contact-forma h2{
+    text-align: center;
+    font-family: Philosopher;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 40.6px;
+    text-align: center;
+    color: #150C01;
+    padding-bottom: 46px;
+}
+
+.input-email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact input{
+    padding: 15px 400px 15px 15px;
+    margin-bottom: 100px;
+    text-align: left;
+    border: none;
+    /* margin-left: 20px; */
+    /* margin-left: 190px; */
+    border-radius: 8px;
+    padding-left: 40px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40.6px;
+    text-align: left;
+}
+
+.contact input:focus{
+    outline: none;
+}
+
+.contact button{
+    padding: 16px 40px;
+    border: none;
+    border-radius: 8px;
+    background-color:#DC780B;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40.6px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: all 0.3s;
+    margin-bottom: 117px;
+    margin-top: 16.5px;
+    cursor: pointer;
+}
+
+.contact button:hover{
+    background-color: #dc770bb9;
+    color: #FFFFFF;
+}
+
+/* ======== footer css ======== */
+
+.footer{
+    background-color: #252525;
+}
+
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.food-logo-info{
+    padding-top: 137px;
+    padding-bottom: 104px;
+}
+
+.food-logo-info a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26.41px;
+    text-align: left;
+}
+
+.food-logo-info p{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30.41px;
+    text-align: left;
+    color: #ffffffb5;
+}
+
+.food-logo-info img{
+    margin-bottom: 25px;
+}
+
+.home{
+    padding-top: 137px;
+    font-family: Philosopher;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20.16px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.home h3{
+    margin-bottom: 30px;
+}
+
+.home p{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30.41px;
+    text-align: left;
+    color: #ffffffb4;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.home span a{
+    text-decoration: none;
+}
+
+.messenger-icons a{
+    margin-right: 5px;
+}
