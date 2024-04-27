@@ -298,6 +298,7 @@ ul li:hover{
     border-radius: 5px;
     background-color: #DC780B;
     color: #FFFFFF;
+    cursor: pointer;
 
     font-family: Roboto;
     font-size: 16px;
@@ -766,6 +767,7 @@ ul li:hover{
     color: #DC780B;
     margin-bottom: 187px;
     transition: all 0.3s;
+    cursor: pointer;
 }
 
 .menu__container .learn:hover{
